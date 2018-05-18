@@ -13,12 +13,12 @@ public class DiningRoomTest {
     }
 
     @Test
-    public void getRoomCapacity(){
+    public void canGetRoomCapacity(){
         assertEquals(2, diningRoom.getCapacity());
     }
 
     @Test
-    public void getRoomName(){
+    public void canGetRoomName(){
         assertEquals("dining room", diningRoom.getRoomName());
     }
 
